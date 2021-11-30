@@ -2,7 +2,9 @@ var onion = document.getElementById('onion');
 var container = document.getElementById('container');
 
 var layerOne = document.getElementById("layerOne");
-var layerOne = document.getElementById("layerOne");
+var layerTwo = document.getElementById("layerTwo");
+var layerThree = document.getElementById("layerThree");
+var layerFour = document.getElementById("layerFour");
 
 var mouseX = 0;
 var mouseY = 0;
