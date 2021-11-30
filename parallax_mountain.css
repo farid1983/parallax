@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 1000px;
+    height:500px;
+    border:2px solid black;
+    position:relative;
+    margin: 0 auto;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+/* img{
+    position:absolute;
+    top: 0;
+    left: 0;
+ 
+} */
+
+#layerZero{
+    background-image: url(day7_challenge/images/layer_0.png);
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+}
+
+#layerOne{
+    background-image: url(day7_challenge/images/layer_1.png);
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+#layerTwo{
+    background-image: url(day7_challenge/images/layer_2.png);
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 6;
+}
+
+#layerThree{
+    background-image: url(day7_challenge/images/layer_3.png);
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 7;
+}
+
+#layerFour{
+    background-image: url(day7_challenge/images/layer_4.png);
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 8;
+}
+
+#layerFive{
+    background-image: url(day7_challenge/images/layer_5.png);
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+
+#layerSix{
+    background-image: url(day7_challenge/images/layer_6.png);
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+} 

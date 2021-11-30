@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#container{
+width: 900px;
+height: 600px;
+border:2px solid black;
+margin:0 auto;
+position: relative;
+/* using relative as parent */
+overflow: hidden;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position:absolute;
+    left:0;
+    top:0;
+}
