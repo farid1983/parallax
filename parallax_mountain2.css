@@ -11,7 +11,7 @@
     position:relative;
     margin: 0 auto;
     background-color: lightblue;
-    /* overflow: hidden; */
+    overflow: hidden;
     z-index: -1;
 }
 
@@ -32,7 +32,7 @@ img{
     top: 325px;
     z-index: 12;
         /* background-color:chartreuse; */
-    background-size: 300px;
+    background-size: 350px;
     background-repeat: no-repeat;
 }
 
