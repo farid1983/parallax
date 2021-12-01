@@ -16,7 +16,8 @@ window.addEventListener("mousemove", onMouseMove);
 //(type of event, listener(func name))
 
 function onMouseMove(event) {
-    console.log(event.pageX);
+    console.log(event);
+    console.log('position:', 'x=', event.pageX, 'y=', event.pageY);
 
     mouseX = event.pageX - container.offsetLeft;
     mouseY = event.pageY;
@@ -31,3 +32,7 @@ function onMouseMove(event) {
     //lower no lower gap 0.05, 0.08
 }
 
+
+
+// document.getElementById('onion').style.left = event.pageX - container.offsetLeft - 25 + 'px';
+// the full formula without assigning it to any variables

@@ -10,7 +10,7 @@ var topPos = 0;
 // open back if want to use move only without timer
 
 function moveBox() {
-    // console.log("Is moving!");
+    console.log("Is moving!");
 
     if (leftPos > 900) {
         leftPos = -100;
@@ -38,7 +38,7 @@ function moveBox() {
 setTimeout(countDown, 5000)
 
 function countDown() {
-    console.log("GO!!!");
+    // console.log("GO!!!");
     setInterval(moveBox, 10);
 }
 

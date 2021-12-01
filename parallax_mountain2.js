@@ -26,12 +26,12 @@ function onMouseMove(event) {
     onion.style.left = mouseX - 25 + 'px';
     onion.style.top = mouseY - 25 + 'px';
 
-    layerZero.style.left = (-mouseX * 0.02) + (1000 / 2 - 1000 / 2) + "px";
-    layerOne.style.left = (-mouseX * 0.03) + (1000 / 2 - 1000 / 2) + "px";
-    layerTwo.style.left = (-mouseX * 0.04) + (1000 / 2 - 1000 / 2) + "px";
-    layerThree.style.left = (-mouseX * 0.05) + centerScreen + "px";
-    layerFour.style.left = (-mouseX * 0.06) + (1000 / 2 - 1000 / 2) + "px";
-    layerFive.style.left = (-mouseX * 0.07) + (1000 / 2 - 1000 / 2) + "px";
+    // layerZero.style.left = (-mouseX * 0.02) + (1000 / 2 - 1000 / 2) + "px";
+    // layerOne.style.left = (-mouseX * 0.03) + (1000 / 2 - 4000 / 2) + "px";
+    // layerTwo.style.left = (-mouseX * 0.04) + (1000 / 2 - 1000 / 2) + "px";
+    // layerThree.style.left = (-mouseX * 0.05) + centerScreen + "px";
+    // layerFour.style.left = (-mouseX * 0.06) + (1000 / 2 - 1000 / 2) + "px";
+    // layerFive.style.left = (-mouseX * 0.02) + (1000 / 2 - 1000 / 2) + "px";
 
 
     //lower no lower gap 0.05, 0.08
