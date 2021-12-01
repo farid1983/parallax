@@ -6,7 +6,7 @@
 
 #container{
     width: 1000px;
-    height:500px;
+    height: 400px;
     border:2px solid black;
     position:relative;
     margin: 0 auto;
@@ -18,32 +18,12 @@ img{
     position:absolute;
     top: 0;
     left: 0;
- 
+
 }
 
-#layerZero{
-    background-image: url(day7_challenge/images/layer_0.png);
-    width: 1200px;
-    height: 500px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 4;
-}
-
-#layerOne{
-    background-image: url(day7_challenge/images/layer_1.png);
-    width: 1200px;
-    height: 500px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 5;
-}
-
-#layerTwo{
-    background-image: url(day7_challenge/images/layer_2.png);
-    width: 1200px;
+#person{
+    background-image: url(day7_challenge/img/person.png);
+    width: 1000px;
     height: 500px;
     position: absolute;
     left: 0;
@@ -51,42 +31,52 @@ img{
     z-index: 6;
 }
 
-#layerThree{
-    background-image: url(day7_challenge/images/layer_3.png);
-    width: 1200px;
+#image{
+    background-image: url(day7_challenge/img/image.jpg);
+    width: 1000px;
     height: 500px;
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 7;
+    z-index: 1;
 }
 
-#layerFour{
-    background-image: url(day7_challenge/images/layer_4.png);
-    width: 1200px;
+#mountain1{
+    background-image: url(day7_challenge/img/mountain1.png);
+    width: 1000px;
     height: 500px;
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 8;
+    z-index: 5;
 }
 
-#layerFive{
-    background-image: url(day7_challenge/images/layer_5.png);
-    width: 1200px;
+#mountain2{
+    background-image: url(day7_challenge/img/mountain2.png);
+    width: 1000px;
     height: 500px;
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 9;
+    z-index: 3;
 }
 
-#layerSix{
-    background-image: url(day7_challenge/images/layer_6.png);
-    width: 1200px;
+#mountain3{
+    background-image: url(day7_challenge/img/mountain3.png);
+    width: 1000px;
     height: 500px;
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 10;
-} 
+    z-index: 3;
+}
+
+#sky{
+    background-image: url(day7_challenge/img/sky.png);
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
