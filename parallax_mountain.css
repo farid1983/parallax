@@ -23,6 +23,7 @@ img{
 
 #layerZero{
     background-image: url(day7_challenge/images/layer_0.png);
+    background-size: contain;
     width: 1200px;
     height: 500px;
     position: absolute;
